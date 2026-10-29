@@ -10,157 +10,94 @@
 *{box-sizing:border-box}
 body{margin:0;background:radial-gradient(ellipse at top,#172640 0%,var(--bg) 60%);color:var(--text);font-family:Cairo,Arial,sans-serif;min-height:100vh}
 header{padding:22px 16px;border-bottom:1px solid var(--line);background:#080d19d9;position:sticky;top:0;z-index:5;backdrop-filter:blur(12px)}
-.wrap{width:min(1050px,94%);margin:auto}
-.brand{font-size:25px;font-weight:800;letter-spacing:2px}.brand span{color:var(--accent)}
-.subtitle{font-size:12px;color:var(--muted)}
-main{padding:25px 0 50px}
-.card{background:#111a2bf0;border:1px solid var(--line);border-radius:18px;padding:20px;margin-bottom:18px;box-shadow:0 12px 35px #0002}
-h2{font-size:19px;margin:0 0 16px}
-h3{font-size:16px;margin:0}
-label{display:block;font-size:13px;color:#c7d5e9;margin:12px 0 6px}
-input,textarea,select{width:100%;background:#080f1e;border:1px solid #33435c;color:white;border-radius:10px;padding:12px;font:inherit;font-size:14px;outline:none}
-input:focus,textarea:focus,select:focus{border-color:var(--accent)}
-textarea{resize:vertical;min-height:85px}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-button{font-family:inherit;font-size:14px;font-weight:700;border:0;border-radius:10px;padding:11px 16px;cursor:pointer}
-.primary{background:linear-gradient(120deg,#d7e7ff,#8fb5f0);color:#091326}
-.secondary{background:#25344b;color:#edf3ff;border:1px solid #3b4e69}
-.danger{background:#3a202a;color:#ffaaaa;border:1px solid #713c49}
-button:disabled{opacity:.5;cursor:not-allowed}
-.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:16px}
-.status{font-size:13px;margin-top:12px;color:var(--muted);white-space:pre-wrap}
-.status.error{color:#ff9999}.status.success{color:var(--ok)}
-.product{display:grid;grid-template-columns:90px 1fr;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
-.product:last-child{border:0}
-.thumb{width:90px;height:90px;object-fit:cover;border-radius:12px;background:#080f1e}
-.product p{font-size:12px;color:var(--muted);margin:4px 0}
-.price{color:var(--accent);font-weight:800}
-.small{font-size:12px;color:var(--muted)}
-.hidden{display:none!important}
-.topline{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
-.pill{background:#172b30;color:var(--ok);padding:4px 10px;border-radius:20px;font-size:12px}
-.order{border:1px solid var(--line);border-radius:14px;padding:15px;margin:14px 0;background:#0b1424}
-.order p{margin:7px 0;font-size:13px;overflow-wrap:anywhere}
-.order-items{background:#111a2b;border-radius:10px;padding:10px;margin-top:10px}
-.order-items li{margin:6px 0;font-size:13px}
-.order-total{color:var(--accent);font-size:18px;font-weight:800;margin-top:12px}
-.order select{max-width:240px}
-#login{max-width:460px;margin:45px auto;text-align:center}
-#login .primary{width:100%;margin-top:18px}
-footer{text-align:center;color:#71839c;font-size:12px;padding:20px}
+.wrap{width:min(1050px,94%);margin:auto}.brand{font-size:25px;font-weight:800;letter-spacing:2px}.brand span{color:var(--accent)}.subtitle{font-size:12px;color:var(--muted)}main{padding:25px 0 50px}
+.card{background:#111a2bf0;border:1px solid var(--line);border-radius:18px;padding:20px;margin-bottom:18px;box-shadow:0 12px 35px #0002}h2{font-size:19px;margin:0 0 16px}h3{font-size:16px;margin:0}
+label{display:block;font-size:13px;color:#c7d5e9;margin:12px 0 6px}input,textarea,select{width:100%;background:#080f1e;border:1px solid #33435c;color:white;border-radius:10px;padding:12px;font:inherit;font-size:14px;outline:none}input:focus,textarea:focus,select:focus{border-color:var(--accent)}textarea{resize:vertical;min-height:85px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}button{font-family:inherit;font-size:14px;font-weight:700;border:0;border-radius:10px;padding:11px 16px;cursor:pointer}.primary{background:linear-gradient(120deg,#d7e7ff,#8fb5f0);color:#091326}.secondary{background:#25344b;color:#edf3ff;border:1px solid #3b4e69}.danger{background:#3a202a;color:#ffaaaa;border:1px solid #713c49}button:disabled{opacity:.5;cursor:not-allowed}.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:16px}
+.status{font-size:13px;margin-top:12px;color:var(--muted);white-space:pre-wrap}.status.error{color:#ff9999}.status.success{color:var(--ok)}.product{display:grid;grid-template-columns:90px 1fr;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}.product:last-child{border:0}.thumb{width:90px;height:90px;object-fit:cover;border-radius:12px;background:#080f1e}.product p{font-size:12px;color:var(--muted);margin:4px 0}.price{color:var(--accent);font-weight:800}.small{font-size:12px;color:var(--muted)}.hidden{display:none!important}.topline{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.pill{background:#172b30;color:var(--ok);padding:4px 10px;border-radius:20px;font-size:12px}
+.order{border:1px solid var(--line);border-radius:14px;padding:15px;margin:14px 0;background:#0b1424}.order p{margin:7px 0;font-size:13px;overflow-wrap:anywhere}.order-items{background:#111a2b;border-radius:10px;padding:10px;margin-top:10px}.order-items li{margin:6px 0;font-size:13px}.order-total{color:var(--accent);font-size:18px;font-weight:800;margin-top:12px}.order select{max-width:240px}#login{max-width:460px;margin:45px auto;text-align:center}#login .primary{width:100%;margin-top:18px}footer{text-align:center;color:#71839c;font-size:12px;padding:20px}
 @media(max-width:600px){.grid{grid-template-columns:1fr}.card{padding:15px}.product{grid-template-columns:70px 1fr}.thumb{width:70px;height:70px}.brand{font-size:22px}}
 </style>
 </head>
 <body>
 <header>
-  <div class="wrap topline">
-    <div>
-      <div class="brand">LUMEN <span>TECH</span></div>
-      <div class="subtitle">لوحة إدارة المتجر الإلكترونية</div>
-    </div>
-    <button id="logout" class="secondary hidden">تسجيل الخروج</button>
-  </div>
+<div class="wrap topline">
+<div>
+<div class="brand">LUMEN <span>TECH</span></div>
+<div class="subtitle">لوحة إدارة المتجر الإلكترونية</div>
+</div>
+<button id="logout" class="secondary hidden">تسجيل الخروج</button>
+</div>
 </header>
-
 <main class="wrap">
-  <section id="login" class="card">
-    <div style="font-size:48px">🔐</div>
-    <h2>مرحباً بك في لوحة الإدارة</h2>
-    <p class="small">سجّل الدخول بحساب Google المصرّح له بالإدارة.</p>
-    <button id="loginBtn" class="primary">الدخول باستخدام Google</button>
-    <div id="loginStatus" class="status"></div>
-  </section>
+<section id="login" class="card">
+<div style="font-size:48px">🔐</div>
+<h2>مرحباً بك في لوحة الإدارة</h2>
+<p class="small">سجّل الدخول بحساب Google المصرّح له بالإدارة.</p>
+<button id="loginBtn" class="primary">الدخول باستخدام Google</button>
+<div id="loginStatus" class="status"></div>
+</section>
 
-  <section id="dashboard" class="hidden">
-    <div class="card">
-      <div class="topline">
-        <div>
-          <h2>لوحة التحكم</h2>
-          <div id="userEmail" class="small"></div>
-        </div>
-        <span class="pill">متصل بقاعدة البيانات</span>
-      </div>
-      <div class="grid" style="margin-top:18px">
-        <div class="card" style="margin:0">
-          <div class="small">عدد المنتجات</div>
-          <div id="count" style="font-size:28px;font-weight:800">—</div>
-        </div>
-        <div class="card" style="margin:0">
-          <div class="small">إجمالي الطلبات</div>
-          <div id="ordersCount" style="font-size:28px;font-weight:800">—</div>
-        </div>
-        <div class="card" style="margin:0">
-          <div class="small">الطلبات الجديدة</div>
-          <div id="newOrdersCount" style="font-size:28px;font-weight:800">—</div>
-        </div>
-      </div>
-    </div>
+<section id="dashboard" class="hidden">
+<div class="card">
+<div class="topline">
+<div><h2>لوحة التحكم</h2><div id="userEmail" class="small"></div></div>
+<span class="pill">متصل بقاعدة البيانات</span>
+</div>
+<div class="grid" style="margin-top:18px">
+<div class="card" style="margin:0"><div class="small">عدد المنتجات</div><div id="count" style="font-size:28px;font-weight:800">—</div></div>
+<div class="card" style="margin:0"><div class="small">إجمالي الطلبات</div><div id="ordersCount" style="font-size:28px;font-weight:800">—</div></div>
+<div class="card" style="margin:0"><div class="small">الطلبات الجديدة</div><div id="newOrdersCount" style="font-size:28px;font-weight:800">—</div></div>
+</div>
+</div>
 
-    <section class="card" id="editor">
-      <h2 id="formTitle">＋ إضافة منتج جديد</h2>
-      <form id="productForm">
-        <input type="hidden" id="productId">
-        <label for="name">اسم المنتج *</label>
-        <input id="name" required maxlength="120" placeholder="مثال: راوتر لاسلكي">
-        <div class="grid">
-          <div>
-            <label for="price">السعر *</label>
-            <input id="price" required type="number" min="0" step="0.01" placeholder="25">
-          </div>
-          <div>
-            <label for="category">القسم</label>
-            <input id="category" placeholder="الشبكات">
-          </div>
-        </div>
-        <label for="description">وصف المنتج</label>
-        <textarea id="description" placeholder="اكتب تفاصيل المنتج..."></textarea>
-        <label for="icon">رمز المنتج (إيموجي)</label>
-        <input id="icon" maxlength="12" placeholder="📡">
-        <label for="images">روابط الصور (كل رابط بسطر منفصل)</label>
-        <textarea id="images" placeholder="https://example.com/image1.jpg&#10;https://example.com/image2.jpg"></textarea>
-        <div class="small">استخدم روابط صور مباشرة تبدأ بـ HTTPS.</div>
-        <div class="actions">
-          <button class="primary" id="saveBtn" type="submit">حفظ المنتج</button>
-          <button class="secondary hidden" id="cancelEdit" type="button">إلغاء التعديل</button>
-          <button class="secondary" type="button" id="refreshBtn">تحديث المنتجات</button>
-        </div>
-        <div id="formStatus" class="status"></div>
-      </form>
-    </section>
+<section class="card" id="editor">
+<h2 id="formTitle">＋ إضافة منتج جديد</h2>
+<form id="productForm">
+<input type="hidden" id="productId">
+<label for="name">اسم المنتج *</label>
+<input id="name" required maxlength="120" placeholder="مثال: راوتر لاسلكي">
+<div class="grid">
+<div><label for="price">السعر *</label><input id="price" required type="number" min="0" step="0.01" placeholder="25"></div>
+<div><label for="category">القسم</label><input id="category" placeholder="الشبكات"></div>
+</div>
+<label for="description">وصف المنتج</label>
+<textarea id="description" placeholder="اكتب تفاصيل المنتج..."></textarea>
+<label for="icon">رمز المنتج (إيموجي)</label>
+<input id="icon" maxlength="12" placeholder="📡">
+<label for="images">روابط الصور (كل رابط بسطر منفصل)</label>
+<textarea id="images" placeholder="https://example.com/image1.jpg
+https://example.com/image2.jpg"></textarea>
+<div class="small">استخدم روابط صور مباشرة تبدأ بـ HTTPS.</div>
+<div class="actions">
+<button class="primary" id="saveBtn" type="submit">حفظ المنتج</button>
+<button class="secondary hidden" id="cancelEdit" type="button">إلغاء التعديل</button>
+<button class="secondary" type="button" id="refreshBtn">تحديث المنتجات</button>
+</div>
+<div id="formStatus" class="status"></div>
+</form>
+</section>
 
-    <section class="card">
-      <div class="topline">
-        <h2>📦 المنتجات الحالية</h2>
-        <input id="search" placeholder="ابحث عن منتج..." style="max-width:250px">
-      </div>
-      <div id="products"><p class="small">جارٍ تحميل المنتجات...</p></div>
-      <div id="listStatus" class="status"></div>
-    </section>
+<section class="card">
+<div class="topline"><h2>📦 المنتجات الحالية</h2><input id="search" placeholder="ابحث عن منتج..." style="max-width:250px"></div>
+<div id="products"><p class="small">جارٍ تحميل المنتجات...</p></div>
+<div id="listStatus" class="status"></div>
+</section>
 
-    <section class="card" id="ordersSection">
-      <div class="topline">
-        <h2>🧾 طلبات الزبائن</h2>
-        <button class="secondary" type="button" id="refreshOrdersBtn">تحديث الطلبات</button>
-      </div>
-      <p class="small">الطلبات المسجلة في قاعدة بيانات المتجر.</p>
-      <div id="ordersList"><p class="small">جارٍ تحميل الطلبات...</p></div>
-      <div id="ordersStatus" class="status"></div>
-    </section>
-  </section>
+<section class="card" id="ordersSection">
+<div class="topline"><h2>🧾 طلبات الزبائن</h2><button class="secondary" type="button" id="refreshOrdersBtn">تحديث الطلبات</button></div>
+<p class="small">الطلبات المسجلة في قاعدة بيانات المتجر.</p>
+<div id="ordersList"><p class="small">جارٍ تحميل الطلبات...</p></div>
+<div id="ordersStatus" class="status"></div>
+</section>
+</section>
 </main>
-
 <footer>LUMEN TECH · إدارة المتجر</footer>
 
 <script type="module">
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-app.js";
-import {
-  getAuth, GoogleAuthProvider, signInWithPopup,
-  onAuthStateChanged, signOut
-} from "https://www.gstatic.com/firebasejs/12.5.0/firebase-auth.js";
-import {
-  getFirestore, collection, getDocs, addDoc,
-  updateDoc, deleteDoc, doc, serverTimestamp
-} from "https://www.gstatic.com/firebasejs/12.5.0/firebase-firestore.js";
+import {getAuth,GoogleAuthProvider,signInWithPopup,onAuthStateChanged,signOut} from "https://www.gstatic.com/firebasejs/12.5.0/firebase-auth.js";
+import {getFirestore,collection,getDocs,addDoc,updateDoc,deleteDoc,doc,serverTimestamp} from "https://www.gstatic.com/firebasejs/12.5.0/firebase-firestore.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyCXYARZI8TrqsVTtqTRJmUiXt8b8_bM4g",
@@ -172,316 +109,255 @@ const firebaseConfig = {
   measurementId: "G-5B5NYZXJZE"
 };
 
-const ADMIN_EMAIL = "ali.mo.alobaid@gmail.com";
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const db = getFirestore(app);
-const provider = new GoogleAuthProvider();
+const ADMIN_EMAIL="ali.mo.alobaid@gmail.com";
+const app=initializeApp(firebaseConfig);
+const auth=getAuth(app);
+const db=getFirestore(app);
+const provider=new GoogleAuthProvider();
+const $=id=>document.getElementById(id);
+let products=[];
+let orders=[];
 
-const $ = id => document.getElementById(id);
-let products = [];
-let orders = [];
-
-function status(id, message, type="") {
-  $(id).textContent = message;
-  $(id).className = "status " + type;
+function status(id,message,type=""){
+  $(id).textContent=message;
+  $(id).className="status "+type;
 }
 
-function escapeHTML(value="") {
-  return String(value).replace(/[&<>"']/g, ch => ({
-    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-  }[ch]));
+function escapeHTML(value=""){
+  return String(value).replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
 }
 
-function safeImage(url) {
-  try {
-    const parsed = new URL(url);
-    return parsed.protocol === "https:" ? parsed.href : "";
-  } catch { return ""; }
+function safeImage(url){
+  try{
+    const parsed=new URL(url);
+    return parsed.protocol==="https:"?parsed.href:"";
+  }catch{return "";}
 }
 
-function imagesOf(p) {
-  if (Array.isArray(p.images)) return p.images;
-  if (p.image) return [p.image];
-  return [];
+function imagesOf(p){
+  if(Array.isArray(p.images))return p.images;
+  if(p.image)return[p.image];
+  return[];
 }
 
-function showEditor(p=null) {
+function showEditor(p=null){
   $("productForm").reset();
-  $("productId").value = p?.id || "";
-  $("name").value = p?.name || "";
-  $("price").value = p?.price ?? "";
-  $("category").value = p?.category || "";
-  $("description").value = p?.description || "";
-  $("icon").value = p?.icon || "📦";
-  $("images").value = imagesOf(p || {}).join("\n");
-  $("formTitle").textContent = p ? "✏️ تعديل المنتج" : "＋ إضافة منتج جديد";
-  $("saveBtn").textContent = p ? "حفظ التعديلات" : "حفظ المنتج";
-  $("cancelEdit").classList.toggle("hidden", !p);
+  $("productId").value=p?.id||"";
+  $("name").value=p?.name||"";
+  $("price").value=p?.price??"";
+  $("category").value=p?.category||"";
+  $("description").value=p?.description||"";
+  $("icon").value=p?.icon||"📦";
+  $("images").value=imagesOf(p||{}).join("\n");
+  $("formTitle").textContent=p?"✏️ تعديل المنتج":"＋ إضافة منتج جديد";
+  $("saveBtn").textContent=p?"حفظ التعديلات":"حفظ المنتج";
+  $("cancelEdit").classList.toggle("hidden",!p);
   status("formStatus","");
   $("editor").scrollIntoView({behavior:"smooth",block:"start"});
 }
 
-async function loadProducts() {
+async function loadProducts(){
   status("listStatus","جارٍ تحميل المنتجات...");
-  try {
-    const snap = await getDocs(collection(db,"products"));
-    products = snap.docs.map(d => ({id:d.id,...d.data()}));
-    products.sort((a,b) => String(a.name||"").localeCompare(String(b.name||""),"ar"));
-    $("count").textContent = products.length;
+  try{
+    const snap=await getDocs(collection(db,"products"));
+    products=snap.docs.map(d=>({id:d.id,...d.data()}));
+    products.sort((a,b)=>String(a.name||"").localeCompare(String(b.name||""),"ar"));
+    $("count").textContent=products.length;
     renderProducts();
     status("listStatus","تم تحميل المنتجات بنجاح.","success");
-  } catch (err) {
+  }catch(err){
     console.error(err);
     status("listStatus","تعذّر تحميل المنتجات: "+err.message,"error");
   }
 }
 
-function renderProducts() {
-  const q = $("search").value.trim().toLowerCase();
-  const filtered = products.filter(p =>
-    [p.name,p.category,p.description].some(v => String(v||"").toLowerCase().includes(q))
-  );
-
-  if (!filtered.length) {
-    $("products").innerHTML = '<p class="small">ما في منتجات مطابقة للبحث.</p>';
+function renderProducts(){
+  const q=$("search").value.trim().toLowerCase();
+  const filtered=products.filter(p=>[p.name,p.category,p.description].some(v=>String(v||"").toLowerCase().includes(q)));
+  if(!filtered.length){
+    $("products").innerHTML='<p class="small">ما في منتجات مطابقة للبحث.</p>';
     return;
   }
-
-  $("products").innerHTML = filtered.map(p => {
-    const img = safeImage(imagesOf(p)[0] || p.image || "");
-    const visual = img
-      ? `<img class="thumb" src="${escapeHTML(img)}" alt="" referrerpolicy="no-referrer">`
-      : `<div class="thumb" style="display:grid;place-items:center;font-size:30px">${escapeHTML(p.icon||"📦")}</div>`;
-
-    return `<article class="product">
-      ${visual}
-      <div>
-        <h3>${escapeHTML(p.name||"منتج بلا اسم")}</h3>
-        <p>${escapeHTML(p.category||"بدون قسم")} · ${imagesOf(p).length} صورة</p>
-        <div class="price">${escapeHTML(p.price ?? "—")}</div>
-        <p>${escapeHTML(p.description||"")}</p>
-        <div class="actions">
-          <button class="secondary" data-edit="${escapeHTML(p.id)}">تعديل</button>
-          <button class="danger" data-delete="${escapeHTML(p.id)}">حذف</button>
-        </div>
-      </div>
-    </article>`;
+  $("products").innerHTML=filtered.map(p=>{
+    const img=safeImage(imagesOf(p)[0]||p.image||"");
+    const visual=img
+      ?`<img class="thumb" src="${escapeHTML(img)}" alt="" referrerpolicy="no-referrer">`
+      :`<div class="thumb" style="display:grid;place-items:center;font-size:30px">${escapeHTML(p.icon||"📦")}</div>`;
+    return `<article class="product">${visual}<div>
+      <h3>${escapeHTML(p.name||"منتج بلا اسم")}</h3>
+      <p>${escapeHTML(p.category||"بدون قسم")} · ${imagesOf(p).length} صورة</p>
+      <div class="price">${escapeHTML(p.price??"—")}</div>
+      <p>${escapeHTML(p.description||"")}</p>
+      <div class="actions">
+      <button class="secondary" data-edit="${escapeHTML(p.id)}">تعديل</button>
+      <button class="danger" data-delete="${escapeHTML(p.id)}">حذف</button>
+      </div></div></article>`;
   }).join("");
 
-  $("products").querySelectorAll("[data-edit]").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const p = products.find(x => x.id === btn.dataset.edit);
-      if (p) showEditor(p);
-    });
-  });
+  $("products").querySelectorAll("[data-edit]").forEach(btn=>btn.addEventListener("click",()=>{
+    const p=products.find(x=>x.id===btn.dataset.edit);
+    if(p)showEditor(p);
+  }));
 
-  $("products").querySelectorAll("[data-delete]").forEach(btn => {
-    btn.addEventListener("click", async () => {
-      const p = products.find(x => x.id === btn.dataset.delete);
-      if (!p || !confirm(`متأكد بدك تحذف "${p.name}"؟`)) return;
-      try {
-        await deleteDoc(doc(db,"products",p.id));
-        status("listStatus","تم حذف المنتج.","success");
-        await loadProducts();
-      } catch (err) {
-        status("listStatus","فشل الحذف: "+err.message,"error");
-      }
-    });
-  });
+  $("products").querySelectorAll("[data-delete]").forEach(btn=>btn.addEventListener("click",async()=>{
+    const p=products.find(x=>x.id===btn.dataset.delete);
+    if(!p||!confirm(`متأكد بدك تحذف "${p.name}"؟`))return;
+    try{
+      await deleteDoc(doc(db,"products",p.id));
+      status("listStatus","تم حذف المنتج.","success");
+      await loadProducts();
+    }catch(err){
+      status("listStatus","فشل الحذف: "+err.message,"error");
+    }
+  }));
 }
 
-function formatDate(value) {
-  try {
-    if (!value) return "التاريخ غير متوفر";
-    const date = typeof value.toDate === "function" ? value.toDate() : new Date(value);
-    if (Number.isNaN(date.getTime())) return "التاريخ غير متوفر";
+function formatDate(value){
+  try{
+    if(!value)return"التاريخ غير متوفر";
+    const date=typeof value.toDate==="function"?value.toDate():new Date(value);
+    if(Number.isNaN(date.getTime()))return"التاريخ غير متوفر";
     return date.toLocaleString("ar-SY");
-  } catch {
-    return "التاريخ غير متوفر";
-  }
+  }catch{return"التاريخ غير متوفر";}
 }
 
-function getOrderStatus(order) {
-  return order.status || "new";
+function getOrderStatus(order){
+  return order.status||"new";
 }
 
-function statusLabel(value) {
-  const labels = {
-    new: "جديد",
-    pending: "قيد المراجعة",
-    processing: "قيد التجهيز",
-    completed: "مكتمل",
-    cancelled: "ملغي"
-  };
-  return labels[value] || value || "جديد";
+function statusLabel(value){
+  return({new:"جديد",pending:"قيد المراجعة",processing:"قيد التجهيز",completed:"مكتمل",cancelled:"ملغي"})[value]||value||"جديد";
 }
 
-function orderItemsHTML(items) {
-  if (!Array.isArray(items) || !items.length) {
-    return "<li>تفاصيل المنتجات غير متوفرة</li>";
-  }
-
-  return items.map(item => {
-    const name = item.name || item.title || item.productName || "منتج";
-    const quantity = Number(item.quantity ?? item.qty ?? 1);
-    const price = Number(item.price ?? item.unitPrice ?? 0);
-
-    return `<li>${escapeHTML(name)} — الكمية: ${Number.isFinite(quantity) ? quantity : 1} — السعر: ${Number.isFinite(price) ? price : 0} $</li>`;
+function orderItemsHTML(items){
+  if(!Array.isArray(items)||!items.length)return"<li>تفاصيل المنتجات غير متوفرة</li>";
+  return items.map(item=>{
+    if(typeof item==="string")return `<li>${escapeHTML(item)}</li>`;
+    const name=item.name||item.title||item.productName||item.product||"منتج";
+    const quantity=Number(item.quantity??item.qty??1);
+    const price=item.price??item.priceUSD;
+    return `<li>${escapeHTML(name)} — الكمية: ${Number.isFinite(quantity)?quantity:1}${price!==undefined?` — السعر: ${escapeHTML(price)} $`:""}</li>`;
   }).join("");
 }
 
-async function loadOrders() {
+async function loadOrders(){
+  $("refreshOrdersBtn").disabled=true;
   status("ordersStatus","جارٍ تحميل الطلبات...");
-  $("refreshOrdersBtn").disabled = true;
-
-  try {
-    const snap = await getDocs(collection(db,"orders"));
-
-    orders = snap.docs.map(d => ({id:d.id,...d.data()}));
-    orders.sort((a,b) => {
-      const dateA = a.createdAt?.toMillis?.() || 0;
-      const dateB = b.createdAt?.toMillis?.() || 0;
-      return dateB - dateA;
-    });
-
-    $("ordersCount").textContent = orders.length;
-    $("newOrdersCount").textContent =
-      orders.filter(o => getOrderStatus(o) === "new").length;
-
+  $("ordersList").innerHTML='<p class="small">جارٍ تحميل الطلبات...</p>';
+  try{
+    const snap=await getDocs(collection(db,"orders"));
+    orders=snap.docs.map(d=>({id:d.id,...d.data()}));
+    orders.sort((a,b)=>(b.createdAt?.seconds||0)-(a.createdAt?.seconds||0));
+    $("ordersCount").textContent=orders.length;
+    $("newOrdersCount").textContent=orders.filter(o=>getOrderStatus(o)==="new").length;
     renderOrders();
     status("ordersStatus","تم تحميل الطلبات بنجاح.","success");
-  } catch (err) {
+  }catch(err){
     console.error("Orders loading error:",err);
-    status(
-      "ordersStatus",
-      "تعذّر تحميل الطلبات. تحقق من صلاحيات قراءة orders في Firestore. التفاصيل: " + (err.code || err.message),
-      "error"
-    );
-  } finally {
-    $("refreshOrdersBtn").disabled = false;
+    $("ordersList").innerHTML="";
+    status("ordersStatus","تعذّر تحميل الطلبات. رمز الخطأ: "+(err.code||err.message)+". تحقق من قواعد Firestore.","error");
+  }finally{
+    $("refreshOrdersBtn").disabled=false;
   }
 }
 
-function renderOrders() {
-  if (!orders.length) {
-    $("ordersList").innerHTML =
-      '<p class="small">لا توجد طلبات مسجلة حتى الآن.</p>';
+function renderOrders(){
+  if(!orders.length){
+    $("ordersList").innerHTML='<p class="small">لا توجد طلبات مسجلة حتى الآن.</p>';
     return;
   }
 
-  $("ordersList").innerHTML = orders.map(order => {
-    const customer = order.customer || order.name || "غير محدد";
-    const phone = order.phone || "غير محدد";
-    const address = order.address || "غير محدد";
-    const notes = order.notes || "";
-    const total = Number(order.total ?? order.totalUSD ?? 0);
-    const orderStatus = getOrderStatus(order);
-    const items = orderItemsHTML(order.items);
+  $("ordersList").innerHTML=orders.map(order=>{
+    const customer=order.customer||order.name||"غير محدد";
+    const phone=order.phone||"غير محدد";
+    const address=order.address||"غير محدد";
+    const notes=order.notes||"";
+    const total=Number(order.total??order.totalUSD??0);
+    const state=getOrderStatus(order);
 
     return `<article class="order">
-      <div class="topline">
-        <h3>طلب #${escapeHTML(order.id)}</h3>
-        <span class="pill">${escapeHTML(statusLabel(orderStatus))}</span>
-      </div>
-
+      <div class="topline"><h3>طلب #${escapeHTML(order.id)}</h3><span class="pill">${escapeHTML(statusLabel(state))}</span></div>
       <p><strong>تاريخ الطلب:</strong> ${escapeHTML(formatDate(order.createdAt))}</p>
       <p><strong>اسم الزبون:</strong> ${escapeHTML(customer)}</p>
       <p><strong>رقم الهاتف:</strong> ${escapeHTML(phone)}</p>
       <p><strong>العنوان:</strong> ${escapeHTML(address)}</p>
-      ${notes ? `<p><strong>ملاحظات:</strong> ${escapeHTML(notes)}</p>` : ""}
-
-      <div class="order-items">
-        <strong>المنتجات:</strong>
-        <ul>${items}</ul>
-      </div>
-
-      <div class="order-total">
-        الإجمالي: ${Number.isFinite(total) ? total.toLocaleString("en-US") : "0"} $
-      </div>
-
-      <label for="status-${escapeHTML(order.id)}">تغيير حالة الطلب</label>
-      <select id="status-${escapeHTML(order.id)}" data-order-status="${escapeHTML(order.id)}">
-        <option value="new" ${orderStatus==="new"?"selected":""}>جديد</option>
-        <option value="pending" ${orderStatus==="pending"?"selected":""}>قيد المراجعة</option>
-        <option value="processing" ${orderStatus==="processing"?"selected":""}>قيد التجهيز</option>
-        <option value="completed" ${orderStatus==="completed"?"selected":""}>مكتمل</option>
-        <option value="cancelled" ${orderStatus==="cancelled"?"selected":""}>ملغي</option>
+      ${notes?`<p><strong>ملاحظات:</strong> ${escapeHTML(notes)}</p>`:""}
+      <div class="order-items"><strong>المنتجات:</strong><ul>${orderItemsHTML(order.items)}</ul></div>
+      <div class="order-total">الإجمالي: ${Number.isFinite(total)?total.toLocaleString("en-US"):"0"} $</div>
+      ${order.totalSYPApprox!==undefined?`<p>ما يعادل تقريباً: ${escapeHTML(Number(order.totalSYPApprox).toLocaleString("en-US"))} ل.س</p>`:""}
+      <label for="state-${escapeHTML(order.id)}">تغيير حالة الطلب</label>
+      <select id="state-${escapeHTML(order.id)}" data-order-state="${escapeHTML(order.id)}">
+        <option value="new" ${state==="new"?"selected":""}>جديد</option>
+        <option value="pending" ${state==="pending"?"selected":""}>قيد المراجعة</option>
+        <option value="processing" ${state==="processing"?"selected":""}>قيد التجهيز</option>
+        <option value="completed" ${state==="completed"?"selected":""}>مكتمل</option>
+        <option value="cancelled" ${state==="cancelled"?"selected":""}>ملغي</option>
       </select>
-
-      <div class="actions">
-        <button class="primary" data-save-status="${escapeHTML(order.id)}">حفظ الحالة</button>
-      </div>
+      <div class="actions"><button class="primary" data-save-status="${escapeHTML(order.id)}">حفظ الحالة</button></div>
       <div id="order-msg-${escapeHTML(order.id)}" class="status"></div>
     </article>`;
   }).join("");
 
-  $("ordersList").querySelectorAll("[data-save-status]").forEach(button => {
-    button.addEventListener("click", async () => {
-      const id = button.dataset.saveStatus;
-      const select = $("status-" + id);
-      const message = $("order-msg-" + id);
-      const newStatus = select.value;
+  $("ordersList").querySelectorAll("[data-save-status]").forEach(button=>button.addEventListener("click",async()=>{
+    const id=button.dataset.saveStatus;
+    const select=$("state-"+id);
+    const message=$("order-msg-"+id);
+    const newStatus=select.value;
+    const user=auth.currentUser;
 
-      button.disabled = true;
-      message.className = "status";
-      message.textContent = "جارٍ تحديث حالة الطلب...";
+    if(!user||user.email!==ADMIN_EMAIL||!user.emailVerified){
+      message.textContent="يجب تسجيل الدخول بحساب الإدارة.";
+      message.className="status error";
+      return;
+    }
 
-      try {
-        await updateDoc(doc(db,"orders",id), {
-          status: newStatus,
-          updatedAt: serverTimestamp()
-        });
+    button.disabled=true;
+    message.className="status";
+    message.textContent="جارٍ تحديث حالة الطلب...";
 
-        const order = orders.find(o => o.id === id);
-        if (order) order.status = newStatus;
-
-        $("newOrdersCount").textContent =
-          orders.filter(o => getOrderStatus(o) === "new").length;
-
-        message.className = "status success";
-        message.textContent = "تم تحديث حالة الطلب بنجاح.";
-        renderOrders();
-        status("ordersStatus","تم حفظ حالة الطلب.","success");
-      } catch (err) {
-        console.error("Order status update error:",err);
-        message.className = "status error";
-        message.textContent =
-          "فشل تحديث الحالة: " + (err.code || err.message);
-      } finally {
-        button.disabled = false;
-      }
-    });
-  });
+    try{
+      await updateDoc(doc(db,"orders",id),{status:newStatus,updatedAt:serverTimestamp()});
+      const order=orders.find(o=>o.id===id);
+      if(order)order.status=newStatus;
+      $("newOrdersCount").textContent=orders.filter(o=>getOrderStatus(o)==="new").length;
+      renderOrders();
+      status("ordersStatus","تم حفظ حالة الطلب.","success");
+    }catch(err){
+      console.error(err);
+      message.className="status error";
+      message.textContent="فشل تحديث الحالة: "+(err.code||err.message);
+      button.disabled=false;
+    }
+  }));
 }
 
-$("loginBtn").addEventListener("click", async () => {
+$("loginBtn").addEventListener("click",async()=>{
   status("loginStatus","جارٍ فتح تسجيل الدخول...");
-  try {
+  try{
     await signInWithPopup(auth,provider);
-  } catch(err) {
+  }catch(err){
     console.error(err);
     status("loginStatus","تعذّر تسجيل الدخول: "+err.message,"error");
   }
 });
 
-$("logout").addEventListener("click", () => signOut(auth));
-$("refreshBtn").addEventListener("click", loadProducts);
-$("refreshOrdersBtn").addEventListener("click", loadOrders);
-$("cancelEdit").addEventListener("click", () => showEditor());
-$("search").addEventListener("input", renderProducts);
+$("logout").addEventListener("click",()=>signOut(auth));
+$("refreshBtn").addEventListener("click",loadProducts);
+$("refreshOrdersBtn").addEventListener("click",loadOrders);
+$("cancelEdit").addEventListener("click",()=>showEditor());
+$("search").addEventListener("input",renderProducts);
 
-onAuthStateChanged(auth, async user => {
+onAuthStateChanged(auth,async user=>{
   $("login").classList.add("hidden");
   $("dashboard").classList.add("hidden");
   $("logout").classList.add("hidden");
 
-  if (!user) {
+  if(!user){
     $("login").classList.remove("hidden");
     return;
   }
 
-  if (user.email !== ADMIN_EMAIL || !user.emailVerified) {
+  if(user.email!==ADMIN_EMAIL||!user.emailVerified){
     $("login").classList.remove("hidden");
     status("loginStatus","هذا الحساب غير مخوّل للإدارة. استخدم حساب الإدارة المصرح به.","error");
     await signOut(auth);
@@ -490,65 +366,58 @@ onAuthStateChanged(auth, async user => {
 
   $("dashboard").classList.remove("hidden");
   $("logout").classList.remove("hidden");
-  $("userEmail").textContent = user.email;
-
-  await Promise.all([loadProducts(),loadOrders()]);
+  $("userEmail").textContent=user.email;
+  await Promise.allSettled([loadProducts(),loadOrders()]);
 });
 
-$("productForm").addEventListener("submit", async event => {
+$("productForm").addEventListener("submit",async event=>{
   event.preventDefault();
-  const user = auth.currentUser;
 
-  if (!user || user.email !== ADMIN_EMAIL || !user.emailVerified) {
+  const user=auth.currentUser;
+  if(!user||user.email!==ADMIN_EMAIL||!user.emailVerified){
     status("formStatus","سجّل الدخول بحساب الإدارة أولاً.","error");
     return;
   }
 
-  const name = $("name").value.trim();
-  const price = Number($("price").value);
-  const category = $("category").value.trim();
-  const description = $("description").value.trim();
-  const icon = $("icon").value.trim() || "📦";
-  const rawImages = $("images").value.split(/\n+/).map(s=>s.trim()).filter(Boolean);
-  const images = [...new Set(rawImages.map(safeImage).filter(Boolean))];
+  const name=$("name").value.trim();
+  const price=Number($("price").value);
+  const category=$("category").value.trim();
+  const description=$("description").value.trim();
+  const icon=$("icon").value.trim()||"📦";
+  const rawImages=$("images").value.split(/\n+/).map(s=>s.trim()).filter(Boolean);
+  const images=[...new Set(rawImages.map(safeImage).filter(Boolean))];
 
-  if (!name || !Number.isFinite(price) || price < 0) {
+  if(!name||!Number.isFinite(price)||price<0){
     status("formStatus","تأكد من اسم المنتج والسعر.","error");
     return;
   }
 
-  if (rawImages.length !== images.length) {
+  if(rawImages.length!==images.length){
     status("formStatus","يوجد رابط صورة غير صالح. استخدم روابط HTTPS صحيحة.","error");
     return;
   }
 
-  const data = {
-    name,price,category,description,icon,images,
-    image:images[0] || "",
-    updatedAt:serverTimestamp()
-  };
-
-  const id = $("productId").value;
-  $("saveBtn").disabled = true;
+  const data={name,price,category,description,icon,images,image:images[0]||"",updatedAt:serverTimestamp()};
+  const id=$("productId").value;
+  $("saveBtn").disabled=true;
   status("formStatus","جارٍ حفظ المنتج...");
 
-  try {
-    if (id) {
+  try{
+    if(id){
       await updateDoc(doc(db,"products",id),data);
       status("formStatus","تم تحديث المنتج بنجاح.","success");
-    } else {
-      data.createdAt = serverTimestamp();
+    }else{
+      data.createdAt=serverTimestamp();
       await addDoc(collection(db,"products"),data);
       status("formStatus","تمت إضافة المنتج بنجاح.","success");
     }
-
     showEditor();
     await loadProducts();
-  } catch(err) {
+  }catch(err){
     console.error(err);
     status("formStatus","فشل الحفظ: "+err.message,"error");
-  } finally {
-    $("saveBtn").disabled = false;
+  }finally{
+    $("saveBtn").disabled=false;
   }
 });
 </script>
